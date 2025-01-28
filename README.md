@@ -2,6 +2,13 @@
 
 An application for generating posts and comments on the **Blue Sky** platform, built on the AT protocol. It leverages agents from the **Autogen framework**. This application was designed with the use of fine-tuned models from the Gandalf series in mind.The dataset was generated using **GPT-4** based on Brock Houston [dataset](https://huggingface.co/datasets/brockhouston/gandalf_therapist) from Hugging Face.
 
+#### Recommended LLMs
+
+- **[DeepSeek-R1-Gandalf](https://huggingface.co/maciejonek/DeepSeek-R1-Gandalf)**
+- **[Llama-3.1-8B-Gandalf](https://huggingface.co/maciejonek/Llama-3.1-8B-Gandalf)**
+- **[Mistral-7B-Gandalf](https://huggingface.co/maciejonek/Mistral-7b-Gandalf)**
+- **[Qwen2.5-7B-Gandalf](https://huggingface.co/maciejonek/Qwen2.5-7B-Gandalf)**
+##### Models are available on my Hugging Face repository.
 
 ## 📥 Installation  
 
