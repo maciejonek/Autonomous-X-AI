@@ -16,10 +16,18 @@ wheels/
 .cache
 
 #Other
-img.jpg
+.jpg
+*.yaml
+*.txt
 *.json
+*.md
+*.jsonl
 *.toml
 tempCodeRunnerFile.py
 .DS_Store
 
+#Exclude
+!metrics/*.json
+!README.md
+!requirements.txt
 

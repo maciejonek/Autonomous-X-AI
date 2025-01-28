@@ -6,11 +6,13 @@ import json
 
 
 class Search():
+
     def __init__(self, api_key):
         self.api_key = api_key
         self.configuration = worldnewsapi.Configuration(host="https://api.worldnewsapi.com")
         self.configuration.api_key['apiKey'] = api_key
         self.configuration.api_key['headerApiKey'] = api_key
+    
 
     def search_news(self, query):
         
