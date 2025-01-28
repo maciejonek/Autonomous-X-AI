@@ -1,7 +1,7 @@
 # 🌌 Blue Sky Autonomous AI  
 
-An application for generating posts and comments on the **Blue Sky** platform, built on the AT protocol. It leverages agents from the **Autogen framework**.  
-The dataset was generated using **GPT-4** based on another dataset [link].  
+An application for generating posts and comments on the **Blue Sky** platform, built on the AT protocol. It leverages agents from the **Autogen framework**. This application was designed with the use of fine-tuned models from the Gandalf series in mind.The dataset was generated using **GPT-4** based on Brock Houston [dataset](https://huggingface.co/datasets/brockhouston/gandalf_therapist) from Hugging Face.
+
 
 ## 📥 Installation  
 
@@ -30,6 +30,14 @@ The evaluation metrics were derived using the `evaluation.py` script.
 | Llama-3.1-8B-Gandalf      | 0.96        | 0.088      | 0.48          | 0.4             | 0.72            | 66.67s          |
 | Mistral-7B-Gandalf        | 0.92        | 0.089      | 0.56          | 0.4             | 0.8             | 59.69s          |
 | Qwen2.5-7B-Instruct-MLX-4bit | 0.88    | 0.023      | 0.04          | 0.92            | 0.96            | 101.97s         |
+
+### Metrics explanation
+- Style Score - Maintains a consistent and appropriate tone, language, and manner that matches the desired character.
+- Bleu Score - The quality of generated text by comparing it to reference text. 
+- Closure Score - Fully concluded submission, without leaving any unfinished statements.
+- Relevance Score - Output aligns with the user input, staying true to context.
+- Coherence Score - The submission coherent with received message.
+- Generation Time - Represents the time required for the model to generate responses for the testing dataset. 
 
 ## 📝 License  
 
